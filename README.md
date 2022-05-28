@@ -4,8 +4,11 @@
 - Connections:
 	
   PS4 Control(Bluetooth)   ->     ESP32(WROOM MODULE)
-	VCC    				           -> 	  Powered by USB 
-	LED Output(3V3 Logic)    -> 	  GPIO 13,GPIO 12,GPIO 27
+  
+  VCC    				           -> 	  Powered by USB 
+  
+  LED Output(3V3 Logic)    -> 	  GPIO 13,GPIO 12,GPIO 27
+  
   LED Output(PWM) 	       -> 	  GPIO 26
 
 - To be able to use the library, you must pair the control with other device (cell phone for example), write down the MAC address of the device and replace it in the code.
